@@ -62,16 +62,16 @@ cursor: pointer;
 }
 
 #mi_1:hover {
-	border-top-color: #ff8080;
+	border-top-color: #ff8f30;
 }
 #mi_2:hover {
-	border-top-color: #80d3ff;
+	border-top-color: #ff8f30;
 }
 #mi_3:hover {
-	border-top-color: #aad400;
+	border-top-color: #ff8f30;
 }
 #mi_4:hover {
-	border-top-color: #d393d0;
+	border-top-color: #ff8f30;
 }
 #mi_5:hover {
 	border-top-color: #ccc;
@@ -141,7 +141,7 @@ left: 50%;
 margin-left: -490px;
 top: 50%;
 margin-top: -280px;
-background-color: #ff8080;
+background-color: #ff8f30;
 padding: 10px;
 box-shadow: 0 0 20px #000;
 -webkit-box-shadow: 0 0 20px #000;
@@ -165,7 +165,7 @@ left: 50%;
 margin-left: -490px;
 top: 50%;
 margin-top: -280px;
-background-color: #ff8080;
+background-color: #ff8f30;
 padding: 10px;
 box-shadow: 0 0 20px #000;
 -webkit-box-shadow: 0 0 20px #000;
@@ -260,33 +260,33 @@ display: inline-block;
 padding-left: 45px;
 padding-right: 10px;
 line-height: 40px;
-background-color: rgba(256, 256, 256, 0.8);
-color: #ff8080;
+background-color: #ff8f30;
+color: #FFF;
 cursor: pointer;
 }
 
 a.cb_button:link {
-color: #ff8080;
+color: #FFF;
 text-decoration: none;
 }
 a.cb_button:active {
-color: #ff8080;
+color: #FFF;
 text-decoration: none;
 }
 a.cb_button:visited {
-color: #ff8080;
+color: #FFF;
 text-decoration: none;
 }
 a.cb_button:hover {
-color: #ff8080;
+color: #FFF;
 text-decoration: none;
 }
 
 .cb_button:hover {
-background-color: #fff;
-box-shadow: 0 0 6px #a44c4c;
--webkit-box-shadow: 0 0 6px #a44c4c;
--moz-box-shadow: 0 0 6px #a44c4c;
+background-color: #ffa355;
+box-shadow: 0 0 6px #9d9d9d;
+-webkit-box-shadow: 0 0 6px #9d9d9d;
+-moz-box-shadow: 0 0 6px #9d9d9d;
 }
 
 .capition {
