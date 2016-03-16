@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+body {
+background-color: #3e3e3e;
+padding: 0px;
+font-family: 'Ubuntu Condensed', sans-serif;
+font-size: 1.2em;
+}
+iframe {
+display: block;
+}
+table { 
+width: 100%;
+border-spacing: 0;
+}
+tr {
+background-color: #4ac1ff;
+}
+tr:nth-child(even) { 
+background-color: #67cbff; 
+} 
+td {
+padding-left: 14px;
+padding-right: 14px;
+line-height: 2em;
+}
+.top_menu {
+position: fixed;
+z-index: 1000;
+height: 40px;
+width: 100%;
+top: 0px;
+background-color: rgba(256, 256, 256, 0.8);
+color: rgba(0, 0, 0, 0.6);
+}
+.top_menu:hover {
+background-color: #FFF;
+color: #000;
+box-shadow: 0 0 5px #000;
+-webkit-box-shadow: 0 0 5px #000;
+-moz-box-shadow: 0 0 5px #000;
+}
+.top_menu_order {
+	text-align: center;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.menu_item {
+display: inline-block;
+line-height: 32px;
+padding-left: 30px;
+padding-right: 30px;
+border-top-style: solid;
+border-top-width: 4px;
+border-top-color: rgba(0, 0, 0, 0);
+cursor: pointer;
+}
+
+#mi_1:hover {
+	border-top-color: #ff8080;
+}
+#mi_2:hover {
+	border-top-color: #80d3ff;
+}
+#mi_3:hover {
+	border-top-color: #aad400;
+}
+#mi_4:hover {
+	border-top-color: #d393d0;
+}
+#mi_5:hover {
+	border-top-color: #ccc;
+}
+
+.top_menu_order a:link {
+color: rgba(0, 0, 0, 0.6); 
+text-decoration: none;
+}
+.top_menu_order a:visited {
+color: rgba(0, 0, 0, 0.6); 
+text-decoration: none;
+}
+.top_menu_order a:hover {
+color: #000;
+text-decoration: none;
+}
+.top_menu_order a:active {
+color: rgba(0, 0, 0, 0.6);
+text-decoration: none;
+}
+
+.content_wrapper {
+padding: 0px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 960px;
+min-height: 640px;
+background-color: #FFF;
+}
+
+.logo {
+position: absolute;
+height: 200px;
+width: 200px;
+background-image: url('../images/logo.png');
+background-position: center center;
+background-repeat: no-repeat;
+}
+.logo:hover {
+-moz-transform: rotate(180deg);
+transform: rotate(180deg);
+transition: transform 0.5s ease-out;
+-webkit-transform: rotate(180deg);
+-webkit-transition: -webkit-transform 0.5s ease-out;
+-moz-transition: -moz-transform 0.5s ease-out;
+}
+.video {
+display: block;
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+z-index: 999;
+display: none;
+}
+.video_order {
+position: fixed;
+left: 50%;
+margin-left: -490px;
+top: 50%;
+margin-top: -280px;
+background-color: #ff8080;
+padding: 10px;
+box-shadow: 0 0 20px #000;
+-webkit-box-shadow: 0 0 20px #000;
+-moz-box-shadow: 0 0 20px #000;
+}
+#b_video {
+background-image: url('../images/b_video.png');
+background-repeat: no-repeat;
+}
+#b_close {
+background-image: url('../images/b_close.png');
+background-repeat: no-repeat;
+}
+.calc {
+position: absolute;
+height: 200px;
+width: 200px;
+background-image: url('../images/calc.png');
+background-position: center center;
+background-repeat: no-repeat;
+}
+.gear {
+position: absolute;
+height: 200px;
+width: 200px;
+background-image: url('../images/gear.png');
+background-position: center center;
+background-repeat: no-repeat;
+}
+.call {
+position: absolute;
+height: 200px;
+width: 200px;
+background-image: url('../images/call.png');
+background-position: center center;
+background-repeat: no-repeat;
+}
+.cb_gate9 {
+padding: 0px;
+padding-top: 40px;
+background-color: #ff8080;
+color: #FFF;
+}
+.cb_services {
+padding: 0px;
+padding-top: 40px;
+background-color: #80d3ff;
+color: #FFF;
+}
+.cb_tech {
+padding: 0px;
+padding-top: 40px;
+background-color: #aad400;
+color: #FFF;
+	
+}
+.cb_contacts {
+padding: 0px;
+padding-top: 40px;
+background-color: #d393d0;
+color: #FFF;
+}
+.cb_text_container {
+padding: 20px;
+padding-left: 220px;
+min-height: 200px;
+}
+
+.cb_text_container a:link {
+color: #fff; 
+}
+.cb_text_container a:visited {
+color: #fff; 
+}
+.cb_text_container a:hover {
+color: #fff;
+}
+.cb_text_container a:active {
+color: #fff;
+}
+
+.cb_button {
+display: inline-block;
+padding-left: 45px;
+padding-right: 10px;
+line-height: 40px;
+background-color: #FFF;
+color: #ff8080;
+cursor: pointer;
+}
+
+.cb_button:hover {
+box-shadow: 0 0 6px #a44c4c;
+-webkit-box-shadow: 0 0 6px #a44c4c;
+-moz-box-shadow: 0 0 6px #a44c4c;
+}
+.capition {
+font-size: 1.5em;
+display: block;
+}
+.copy {
+	background-color: #000;
+	color: #ссс;
+	padding: 20px;
+	font-size: 0.8em;
+	text-align: center;
+}
