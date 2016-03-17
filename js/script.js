@@ -35,8 +35,17 @@ window.onload = function() {
         'abe9dbdd-4ffa-4d7e-bf96-604f152ca6dc'
     ];
     var player = document.getElementById('top-player');
-    var randomIndex = Math.floor(Math.random() * idList.length);
-    var currentId = idList[randomIndex];
+    function randomIndex() {
+        var index = Math.floor(Math.random() * idList.length);
+        var oldIndex = window.localStorage.getItem('idIndex');
+        if (oldIndex && oldIndex != index) {
+            window.localStorage.setItem('idIndex', index);
+            return index;
+        } else {
+            randomIndex();
+        }
+    }
+    var currentId = idList[randomIndex()];
     var url = '//media.megavisor.com/player/embed?' + currentId + '#allowFlash=true&allowFullscreen=true&allowAnaglyph=false&autoPlay=true&zoom=false';
     player.setAttribute('src', url);
 };
