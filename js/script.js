@@ -29,10 +29,10 @@ function killPlayers ()  {
 window.onload = function() {
     var idList = [
         '0a56c41d-f335-43a0-8ea3-830247fa695c',
-        'a6520c28-c716-4b21-9ec5-c54f6de793b7',
-        'bb196f48-41f1-425c-b5fe-01f6c480e129',
-        'db8e498d-4e75-4878-8d32-ac834ebed57e',
-        'abe9dbdd-4ffa-4d7e-bf96-604f152ca6dc'
+        '82163cd5-1de0-44fe-960f-c9f35431dfc6',
+        'ee1cc145-46b1-4045-a3ab-b0cf721c6410',
+        'ffc76225-dec2-46d4-8ce9-e20576b63ed0',
+        '32615e77-6d98-40f3-a974-85ab79638470'
     ];
     var player = document.getElementById('top-player');
     function randomIndex() {
