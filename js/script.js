@@ -38,7 +38,7 @@ window.onload = function() {
     function randomIndex() {
         var index = Math.floor(Math.random() * idList.length);
         var oldIndex = window.localStorage.getItem('idIndex');
-        if (oldIndex && oldIndex != index) {
+        if (oldIndex != index) {
             window.localStorage.setItem('idIndex', index);
             return index;
         } else {
