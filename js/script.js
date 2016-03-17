@@ -32,7 +32,8 @@ window.onload = function() {
         '82163cd5-1de0-44fe-960f-c9f35431dfc6',
         'ee1cc145-46b1-4045-a3ab-b0cf721c6410',
         'ffc76225-dec2-46d4-8ce9-e20576b63ed0',
-        '32615e77-6d98-40f3-a974-85ab79638470'
+        '32615e77-6d98-40f3-a974-85ab79638470',
+        '5a3819bd-efc2-4376-9ff4-1a0900a2b41d'
     ];
     var player = document.getElementById('top-player');
     function randomIndex() {
