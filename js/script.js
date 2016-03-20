@@ -38,8 +38,8 @@ window.onload = function() {
     var player = document.getElementById('top-player');
     function randomIndex() {
         var index = Math.floor(Math.random() * (idList.length - 1));
-        //var oldIndex = window.localStorage.getItem('idIndex');
-        //if (oldIndex != index) {
+        var oldIndex = window.localStorage.getItem('idIndex');
+        if (oldIndex != index) {
         //    window.localStorage.setItem('idIndex', index);
             return index;
         } else {
